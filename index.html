@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JobListing</title>
+    <link rel="stylesheet" href="src/input.css">
+    <style>
+      .filter-item {
+        background-color: bisque;
+        display: inline-block;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div" >
+      <div class="container">
+        <h1>  `  </h1>
+    <ul id="job-list"  >
+      <template>
+        <li class="job-item">
+         <div class="wrap-info">
+          <img id="company-logo" src="" alt="" />
+          <div class="about-comp">
+        
+            <div class="items">
+              <div class="featur">
+                <p id="compnay-title">Photosnap</p>
+                <p id="job-new-state">NEW!</p>
+                <p id="job-featured-state">FEATURED</p>
+              </div>
+              <h4 id="job-title">Senior Frontend Developer</h4>
+            <p id="time">
+              <span id="postedAt">1d ago</span>
+              <span id="contract">Full Time</span>
+              <span id="location">USA only</span>
+            </p>
+          </div>
+         </div>
+        </div>
+          <div id="filters"></div>
+        </li>
+      </template>
+    </ul>
+      </div>
+    </div>
+    <script type="module" src="./public/app.js"></script>
+  </body>
+</html>
